@@ -31,12 +31,11 @@
       
 
     </section>
-    <br>
+    <br><center
+    <p>ループ秒数を長めに設定すると繋げやすくなります。</p></center>
     <section class="controls">
       <label>ループ秒数:
         <input type="number" id="loopSeconds" value="2" min="0.5" step="0.1" />
-      </label>
-
       <label>FPS:
         <select id="fpsSelect">
           <option value="24">24</option>
@@ -44,22 +43,22 @@
           <option value="60">60</option>
         </select>
       </label>
+      </label>
+
+      
 
       <label>雪の量:
         <input type="range" id="snowAmount" min="50" max="500" value="200" />
         <span id="snowAmountValue">200</span> 粒
-      </label>
-      
-<label for="speedSelect">落下速度:</label>
-<select id="speedSelect">
+        落下速度:<select id="speedSelect">
   <option value="13">ゆっくり</option>
   <option value="36" selected>普通</option>
   <option value="54">速め</option>
   <option value="72">とても速い</option>
 </select>
-
+      </label>
       <button id="startButton"><span class="emoji-color-white">❄</span> 雪オーバーレイ連番を書き出す</button>
-    </section>
+
 
     
   </main>
